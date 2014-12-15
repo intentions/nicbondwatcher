@@ -1,0 +1,5 @@
+ib link watcher script
+written by: Kurt J. Strosahl
+
+The purpose of this script is to watch the bonded ib link on a file server,
+and send emails when the link status changes
