@@ -8,7 +8,7 @@
 EMAIL="strosahl@jlab.org"
 MUTT='/usr/bin/mutt'
 
-#primary bond
+#primary interface 
 PRIMARY="ib1"
 
 TIMELIMIT=3
