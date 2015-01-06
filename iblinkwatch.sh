@@ -36,7 +36,7 @@ then
 	if [[ -f $TOUCHFILE ]]
 	then
 		#status restored
-		/usr/bin/mutt -e "$SENDER" -s "IB link restored to $PRIMARY on $HOSTNAME" $EMAIL < $INFO
+		/usr/bin/mutt -e "$SENDER" -s "IB link restored on $HOSTNAME" $EMAIL < $INFO
 		rm $TOUCHFILE
 	fi
 	exit	
